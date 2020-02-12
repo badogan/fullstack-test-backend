@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 
     def signup
       user = User.create(new_user_params)
-      render json: { username:  user.username, token: issue_token({ id: user.id }) }
+      render json: { username:  user.username, userid: user.id, token: issue_token({ id: user.id }) }
     end
 
     private

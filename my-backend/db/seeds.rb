@@ -9,7 +9,7 @@ puts "Users being seeded"
 user1 = User.create(username:'Basri', password:'password', password_confirmation:'password')
 user2 = User.create(username:'Matt', password:'password', password_confirmation:'password')
 puts "Users seeding complete"
-product1 = Product.create(productname:'Lets say it tshirt',productcode:'T00001',productvalidity:true)
+product1 = Product.create(productname:'Know yourself. You can.',productcode:'T00001',productvalidity:true)
 product2 = Product.create(productname:'Lets do it tshirt',productcode:'T00002',productvalidity:false)
 puts "Products seeding complete"
 size_S = Size.create(sizename:'Small')
