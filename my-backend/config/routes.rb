@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/validsizes', to: 'size#validsizes'
   post '/neworder', to: 'order#neworder'
   get '/getcurrentuserorders', to: 'order#getcurrentuserorders'
+  post '/history', to: 'history#newinput'
 end
