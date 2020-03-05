@@ -21,3 +21,4 @@ Order.create(user_id:user1.id,product_id:product1.id, size_id: size_M.id)
 Order.create(user_id:user2.id,product_id:product1.id, size_id: size_M.id)
 Order.create(user_id:user2.id,product_id:product1.id, size_id: size_L.id)
 puts "Orders seeding complete"
+Panic.create(status:false,reason:'seeded as false hopefully')

@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   post '/neworder', to: 'order#neworder'
   get '/getcurrentuserorders', to: 'order#getcurrentuserorders'
   post '/history', to: 'history#newinput'
+  get '/panic_current', to: 'panic#panic_current'
+  post '/panic_update', to: 'panic#panic_update'
 end
